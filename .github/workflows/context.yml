@@ -5,7 +5,7 @@ jobs:
   my-context:
     runs-on: ubuntu-latest
     steps:
-      -name: "My Step"
+      - name: "My Step"
       run: echo "Hello $MY_ACTION $MY_ACTOR"
       env:
         MY_ACTION: ${{ github.action}}
